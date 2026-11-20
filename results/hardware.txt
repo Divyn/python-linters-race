@@ -1,0 +1,5 @@
+CPU(s):                                  1
+Model name:                              Intel Core Processor (Broadwell, no TSX, IBRS)
+Mem:             961         245         718           0         131         715
+Debian GNU/Linux 13 (trixie)
+6.12.117+deb13-amd64

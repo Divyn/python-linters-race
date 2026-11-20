@@ -1,0 +1,42 @@
+Hit:1 https://deb.debian.org/debian trixie InRelease
+Get:2 https://deb.debian.org/debian-security trixie-security InRelease [43.4 kB]
+Get:3 https://deb.debian.org/debian trixie-updates InRelease [47.3 kB]
+Get:4 https://deb.debian.org/debian-security trixie-security/main Sources [269 kB]
+Get:5 https://deb.debian.org/debian-security trixie-security/main amd64 Packages [306 kB]
+Get:6 https://deb.debian.org/debian-security trixie-security/main Translation-en [185 kB]
+Hit:7 https://debian.mirror.constant.com trixie InRelease
+Fetched 851 kB in 0s (2,404 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3-dev is already the newest version (3.13.5-1).
+build-essential is already the newest version (12.12).
+ca-certificates is already the newest version (20250419+deb13u1).
+The following NEW packages will be installed:
+  python3-pip-whl python3-setuptools-whl python3-venv python3.13-venv
+0 upgraded, 4 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2,782 kB of archives.
+After this operation, 2,957 kB of additional disk space will be used.
+Get:1 https://deb.debian.org/debian trixie/main amd64 python3-pip-whl all 25.1.1+dfsg-1 [1,507 kB]
+Get:2 https://deb.debian.org/debian trixie/main amd64 python3-setuptools-whl all 78.1.1-0.1 [1,268 kB]
+Get:3 https://deb.debian.org/debian trixie/main amd64 python3.13-venv amd64 3.13.5-2+deb13u5 [5,476 B]
+Get:4 https://deb.debian.org/debian trixie/main amd64 python3-venv amd64 3.13.5-1 [1,180 B]
+Fetched 2,782 kB in 0s (29.5 MB/s)
+Selecting previously unselected package python3-pip-whl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 85884 files and directories currently installed.)
+Preparing to unpack .../python3-pip-whl_25.1.1+dfsg-1_all.deb ...
+Unpacking python3-pip-whl (25.1.1+dfsg-1) ...
+Selecting previously unselected package python3-setuptools-whl.
+Preparing to unpack .../python3-setuptools-whl_78.1.1-0.1_all.deb ...
+Unpacking python3-setuptools-whl (78.1.1-0.1) ...
+Selecting previously unselected package python3.13-venv.
+Preparing to unpack .../python3.13-venv_3.13.5-2+deb13u5_amd64.deb ...
+Unpacking python3.13-venv (3.13.5-2+deb13u5) ...
+Selecting previously unselected package python3-venv.
+Preparing to unpack .../python3-venv_3.13.5-1_amd64.deb ...
+Unpacking python3-venv (3.13.5-1) ...
+Setting up python3-setuptools-whl (78.1.1-0.1) ...
+Setting up python3-pip-whl (25.1.1+dfsg-1) ...
+Setting up python3.13-venv (3.13.5-2+deb13u5) ...
+Setting up python3-venv (3.13.5-1) ...
